@@ -1,0 +1,19 @@
+@'
+# .NET build files
+**/bin/
+**/obj/
+
+# Angular build files
+**/node_modules/
+**/dist/
+**/.angular/
+
+# IDE files
+.vs/
+*.user
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+'@ | Set-Content .gitignore

@@ -1,0 +1,6 @@
+@metriva_HostAddress = http://localhost:5004
+
+GET {{metriva_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
